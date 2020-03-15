@@ -1,0 +1,41 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+         <meta charset="utf-8">
+         <title>contact info</title>
+    </head>
+    <body>
+       <P> Name - Prakarsh Vikram Singh</P>
+       <p>Contact number - 99999999999</p>
+       <P>Place of visit - India</P>
+       <p>myemail@gmail.com</p>
+       <hr>
+       <form action="mailto:singh.prakarsh@yahoo.com" method="post" enctype="text/plain">
+           <!--action is the mail where the data is send and post in method attribute means that whatever we type in the input is transfered to out mail and enctype is like utf-8 which makes our text plain and without any encoding -->
+           <label for="">Your Name:</label>
+           <input type="text" name="YourName"> <br>
+           <!--name attribute identifies the data that inside in each of the inputs -->
+           <label>Your Email:</label>
+           <input type="email" name="YourEmail" value="">
+           <input type="submit">
+           <input type="color">
+           <input type="checkbox">
+           <br>
+           <label for="">Do you want to sign-up for the email list</label>
+           <input type="checkbox">
+           <br>
+           <label for="">Password</label>
+           <input type="Password">
+           <br>
+           <br> <!--Rows tells how high the text area should be and Columns determine how wide it should be-->
+           <label for="">Your Message</label>
+           <textarea name="yourMessage" id="" cols="30" rows="9"></textarea>
+           <input type="submit">
+           <!--submit key takes us to wherever the action attribute in the form element is pointing to-->
+
+
+       </form>
+    </body>
+
+
+</html>
